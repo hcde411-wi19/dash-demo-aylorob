@@ -10,7 +10,7 @@ import pandas as pd
 app = dash.Dash(__name__, static_folder='static')
 df = pd.read_json('static/bgt_bike_and_peds.json')
 
-# Data clean up
+# Data clean up hi there
 for col in df.columns:
     if col == "Date":
         continue
